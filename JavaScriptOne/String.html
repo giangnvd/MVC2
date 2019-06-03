@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script  type="text/javascript">
+        var s1 = "Hello Word";
+        var s2 = "What are you doing.";
+        document.write(s1.length);
+        //Length trả về tổng số kí tự của chuỗi.
+        document.write("<br>" + s1.substr(0, 5)); 
+        document.write("<br>" + s2.substring(7, 11));
+        document.write("<br>" + s2.slice(7, 11));
+        //  Hàm cắt trả về một chuổi con.
+        // Tìm kiếm có phân biệt chữ hoa chữ thường.
+        document.write("<br>" + s1.indexOf("W"));
+        document.write("<br>" + s1.indexOf("o"));
+        //Thay thế tất cả và không phân biệt chữ hoa chữ thường.
+        var s3 = "See you again";
+        s4 = s3.replace(/you/gi, "me");
+        document.write("<br>"+ s4);
+    </script>
+</body>
+</html>

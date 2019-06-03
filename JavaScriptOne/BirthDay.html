@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <script type="text/javascript">
+        var ngaysinh = new Date(2019, 14, 5);
+        thu = ngaysinh.getDay();    
+        switch (thu) {
+            case 0: thongbao = "Chu Nhat";
+                break;
+            case 1: thongbao = "Thu Hai";
+                break;
+            case 2: thongbao = "Thu Ba";
+                break;
+            case 3: thongbao = "Thu Tu";
+                break;
+            case 4: thongbao = "Thu Nam";
+                break;
+            case 5: thongbao = "Thu Sau";
+                break;        
+            default: thongbao = "Thu Bay";
+        }
+        document.write("Ngày bạn sinh vào thứ :" + thongbao);
+
+
+    </script>
+</body>
+</html>
